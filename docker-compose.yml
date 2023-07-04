@@ -6,9 +6,9 @@ services:
         ports:
             - 6080:6080
         environment: 
-            - VNC_PASSWD=freerdp
+            - VNC_PASSWD=apacoba
             - GEOMETRY=1280x768
-            - TZ=Asia/Shanghai
+            - TZ=Asia/Jakarta
             - DEPTH=24
         volumes: 
             - /root/Desktop
